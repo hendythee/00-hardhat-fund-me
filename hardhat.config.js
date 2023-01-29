@@ -6,15 +6,13 @@ require("@nomicfoundation/hardhat-chai-matchers")
 require("@nomiclabs/hardhat-solhint")
 
 const GOERLI_RPC_URL =
-    process.env.GOERLI_RPC_URL ||
-    "https://eth-goerli.g.alchemy.com/v2/JpSQU4uGjmOQfb5MsZhBP9UlaiR9nKX_"
+    process.env.GOERLI_RPC_URL
 const PRIVATE_KEY =
-    process.env.PRIVATE_KEY ||
-    "0x37ab4270ce5f62e0d1ccd08301a2d7540454793ff54b4fa6f5ab983a427476cf"
+    process.env.PRIVATE_KEY
 const COINMARKETCAP_API_KEY =
-    process.env.COINMARKETCAP_API_KEY || "046aa986-72ef-45c7-8a95-7daa3ca08b92"
+    process.env.COINMARKETCAP_API_KEY
 const ETHERSCAN_API_KEY =
-    process.env.ETHERSCAN_API_KEY || "758WF36CKJRCJBE9YYXSR6M4WXP1J8JZ1K"
+    process.env.ETHERSCAN_API_KEY
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
